@@ -17,19 +17,20 @@ The repository explains a step by step process to build a resilient and secure t
         cd App
         vim terraform.tfvars
 Now, Paste the code below in your terraform.tfvars file
-region                  = ""
-project_name            = ""
-vpc_cidr                = ""
-pub_sub_1a_cidr         = ""
-pub_sub_2b_cidr         = ""
-pri_sub_3a_cidr         = ""
-pri_sub_4b_cidr         = ""
-pri_sub_5a_cidr         = ""
-pri_sub_6b_cidr         = ""
-db_username             = ""
-db_password             = ""
-certificate_domain_name = ""
-additional_domain_name  = ""
+
+        region                  = ""
+        project_name            = ""
+        vpc_cidr                = ""
+        pub_sub_1a_cidr         = ""
+        pub_sub_2b_cidr         = ""
+        pri_sub_3a_cidr         = ""
+        pri_sub_4b_cidr         = ""
+        pri_sub_5a_cidr         = ""
+        pri_sub_6b_cidr         = ""
+        db_username             = ""
+        db_password             = ""
+        certificate_domain_name = ""
+        additional_domain_name  = ""
 
 Make sure you replace the necessary values you intend to use in the string. The region will be the same region where we created our S3 bucket, that is us-east-1. Replace all other values with your preferred values. You will have to do subnetting for you to be able to input values for the public and private subnets. Take for example if you pick 10.0.0.0/16 as your cidr block, you have to do subnetting to get at least six subnet addresses to use for the public and private subnets.
 
