@@ -41,7 +41,7 @@ Make sure you replace the necessary values you intend to use in the string. The 
 Generate a public and private ssh key, by running the command below
 
     ssh-keygen
-Type the name of the key, in my case, "server_key". Leave the remaining options blank and hit enter key on your keyboard until you see the key fingerprint. Type `ls` to confirm that the public and private keys and generated.
+Type the name of the key, in my case, "server_key". Leave the remaining options blank and hit enter key on your keyboard until you see the key fingerprint. Type `ls` to confirm that the public and private keys are generated.
 
 ## Deployment
 * Navigate to the App directory
