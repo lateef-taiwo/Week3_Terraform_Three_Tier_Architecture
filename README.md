@@ -32,7 +32,7 @@ Now, Paste the code below in your terraform.tfvars file
         certificate_domain_name = ""
         additional_domain_name  = ""
 
-Make sure you replace the necessary values you intend to use in the string. The region will be the same region where we created our S3 bucket, that is us-east-1. Replace all other values with your preferred values. You will have to do subnetting for you to be able to input values for the public and private subnets. Take for example if you pick 10.0.0.0/16 as your cidr block, you have to do subnetting to get at least six subnet addresses to use for the public and private subnets.
+Make sure you replace the necessary values you intend to use in the string. The region will be the same region where we created our S3 bucket, that is us-east-1. Replace all other values with your preferred values. You will have to do subnetting for you to be able to input values for the public and private subnets. Take for example if you pick 10.0.0.0/16 as your VPC CIDR Block, you have to do subnetting to get at least six subnet addresses to use for the public and private subnets.
 
 
 ## Navigate to the following directory
