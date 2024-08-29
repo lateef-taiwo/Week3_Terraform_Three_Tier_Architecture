@@ -1,4 +1,4 @@
-# Week3_Terraform_Two_Tier_Architecture
+# Week3_Terraform_Three_Tier_Architecture
 The repository explains a step by step process to build a resilient and secure two tier Architecture on AWS using terraform. It also goes futher to install and launch a web application in the web web servers
 
 ## Prerequisites
@@ -10,7 +10,7 @@ The repository explains a step by step process to build a resilient and secure t
 6. An IDE e.g VS code.
 
 
-## Step to Run and build the two tier architecture using terraform
+## Step to Run and build the three tier architecture using terraform
 
         git clone https://github.com/lateef-taiwo/Week3_Terraform_Two_Tier_Architecture.git
  
