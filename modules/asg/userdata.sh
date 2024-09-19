@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-URL='https://www.free-css.com/assets/files/free-css-templates/download/page293/hexashop.zip'
-ART_NAME='ecommerce_shop'
+URL='https://www.tooplate.com/zip-templates/2131_wedding_lite.zip'
+ART_NAME='2131_wedding_lite'
 TEMPDIR="/tmp/webfiles"
 
 # Set Variables for Ubuntu
@@ -26,6 +26,7 @@ echo "########################################"
 sudo systemctl start $SVC
 sudo systemctl enable $SVC
 echo
+
 
 # Creating Temp Directory
 echo "########################################"
@@ -52,4 +53,4 @@ echo "########################################"
 echo "Removing Temporary Files"
 echo "########################################"
 rm -rf $TEMPDIR
-echo "cleanup done"
+echo

@@ -11,14 +11,14 @@ variable "max_size" {
     default = 6
 }
 variable "min_size" {
-    default = 2
+    default = 4
 }
 variable "desired_cap" {
-    default = 3
+    default = 4
 }
 variable "asg_health_check_type" {
     default = "ELB"
 }
-variable "pri_sub_3a_id" {}
-variable "pri_sub_4b_id" {}
+variable "pub_sub_1a_id" {}
+variable "pub_sub_2b_id" {}
 variable "tg_arn" {}

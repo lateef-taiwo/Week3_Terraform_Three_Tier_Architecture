@@ -49,8 +49,8 @@ module "asg" {
   project_name   = module.vpc.project_name
   key_name       = module.key.key_name
   client_sg_id   = module.security-group.client_sg_id
-  pri_sub_3a_id = module.vpc.pri_sub_3a_id
-  pri_sub_4b_id = module.vpc.pri_sub_4b_id
+  pub_sub_1a_id  =  module.vpc.pub_sub_1a_id
+ pub_sub_2b_id   = module.vpc.pub_sub_2b_id
   tg_arn         = module.alb.tg_arn
 
 }
